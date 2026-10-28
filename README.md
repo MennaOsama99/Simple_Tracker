@@ -5,7 +5,7 @@
 
 This package includes a C++ implementation of several tracking methods based on the Kernelized Correlation Filter (KCF) [1, 2]. 
 
-This repository has been specifically modified and extended for the **RISC-V SI-Vision Academy Project**. The primary objective of this fork is to accelerate key computational kernels of the KCF tracking pipeline using **RISC-V Vector (RVV)** intrinsics, while maintaining a scalar fallback for host (x86/ARM) compatibility.
+This repository has been specifically modified and extended for the **RISC-V Academy Project**. The primary objective of this fork is to accelerate key computational kernels of the KCF tracking pipeline using **RISC-V Vector (RVV)** intrinsics, while maintaining a scalar fallback for host (x86/ARM) compatibility.
 
 [1] J. F. Henriques, R. Caseiro, P. Martins, J. Batista, "High-Speed Tracking with Kernelized Correlation Filters", TPAMI 2015.  
 [2] J. F. Henriques, R. Caseiro, P. Martins, J. Batista, "Exploiting the Circulant Structure of Tracking-by-detection with Kernels", ECCV 2012.
